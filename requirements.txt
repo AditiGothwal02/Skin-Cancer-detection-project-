@@ -1,9 +1,10 @@
 streamlit
 scikit-learn
 tensorflow
+opencv-python
 matplotlib
 pandas
 numpy
-opencv-python
-cv2
-time
+
+
+
