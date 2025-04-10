@@ -265,7 +265,7 @@ def detection_form_page():
     other_skin_issues = st.text_area("Other Skin Issues (if any)")
     email = st.text_input("Email Address")
 
-    uploaded_image = st.file_uploader("Upload your image of skin", type=["jpg", "jpeg", "png"],
+    uploaded_image = st.file_uploader("Upload your image of skin cancer only", type=["jpg", "jpeg", "png"],
                                       help="Please upload a clear image of cancer-prone part of skin.")
 
     if st.button("Submit"):
