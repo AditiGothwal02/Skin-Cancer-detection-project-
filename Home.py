@@ -1,5 +1,4 @@
 # Import section
-from PIL import Image
 import sklearn
 import streamlit as st
 from PIL import Image
@@ -141,7 +140,7 @@ def home_page():
     with col3:
         st.image(image6, caption="Skin Cancer", use_container_width=True, width=30)
     with col4:
-        st.image(image3, caption="Skin Cancer ",use_container_width=Truee, width=30,)
+        st.image(image3, caption="Skin Cancer ",use_container_width=True, width=30,)
 
     st.header("Facts you Should know about skin cancer!")
     st.write("""
