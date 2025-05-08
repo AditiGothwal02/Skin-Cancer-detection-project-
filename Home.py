@@ -133,15 +133,15 @@ def home_page():
     #st.image("Image2.jpg", caption="Skin Cancer", width=340)
 
     with col1:
-        st.image(image1, caption="Skin Cancer", use_column_width=True, width=30)
+        st.image(image1, caption="Skin Cancer", use_container_width=True, width=30)
 
     with col2:
-        st.image(image2, caption="Skin Cancer", use_column_width=True, width=30)
+        st.image(image2, caption="Skin Cancer",use_container_width=True, width=30)
 
     with col3:
-        st.image(image6, caption="Skin Cancer", use_column_width=True, width=30)
+        st.image(image6, caption="Skin Cancer", use_container_width=True, width=30)
     with col4:
-        st.image(image3, caption="Skin Cancer ",use_column_width=True, width=30,)
+        st.image(image3, caption="Skin Cancer ",use_container_width=Truee, width=30,)
 
     st.header("Facts you Should know about skin cancer!")
     st.write("""
