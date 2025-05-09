@@ -13,9 +13,10 @@ This project aims to develop an AI-driven system for automated skin cancer detec
 ## ⚙️ System Requirements
 
 - Python 3.8 or later
-- pip
+- OpenCV 
 - Streamlit
 - TensorFlow
+- scikit-learn
 
 ---
 
