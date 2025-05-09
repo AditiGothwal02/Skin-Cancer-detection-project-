@@ -64,3 +64,6 @@ The app predicts cancer type with a message like:
 > "This is Melanoma cancer"
 
 ---
+## Link
+
+https://3xg3qshwkkb6ipwcmawkqj.streamlit.app/
