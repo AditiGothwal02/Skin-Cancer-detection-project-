@@ -307,7 +307,7 @@ def results_page():
     # Right column: image and prediction
     with col2:
         st.subheader("📸 Uploaded Image")
-        st.image(st.session_state.uploaded_image, caption="Analyzed Skin Area", use_column_width=True)
+        st.image(st.session_state.uploaded_image, caption="Analyzed Skin Area", use_container_width=True)
 
 
         # for set 2 : if accuracy goes good we may try it
