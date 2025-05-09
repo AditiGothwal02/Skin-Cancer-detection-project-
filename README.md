@@ -28,13 +28,7 @@ git clone https://github.com/<your-username>/skin-cancer-detection-cnn.git
 cd skin-cancer-detection-cnn
 ```
 
-### 2. Create and Activate Virtual Environment
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -49,7 +43,7 @@ opencv-python
 scikit-learn
 ```
 
-### 4. Run the App
+### 3. Run the App
 ```bash
 streamlit run app.py
 ```
