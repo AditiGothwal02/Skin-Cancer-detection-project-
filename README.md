@@ -14,7 +14,6 @@ This project aims to develop an AI-driven system for automated skin cancer detec
 
 - Python 3.8 or later
 - pip
-- virtualenv
 - Streamlit
 - TensorFlow
 
