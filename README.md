@@ -7,27 +7,17 @@ You must have Python 3.8 or later installed.
 Ensure pip, virtualenv, and Streamlit are available in your environment.
 Steps to Replicate
 1. Clone the repository
-bash
-Copy
-Edit
+bash :
 git clone https://github.com/<your-username>/skin-cancer-detection-cnn.git
 cd skin-cancer-detection-cnn
 2. Create a virtual environment and activate it
-bash
-Copy
-Edit
+bash :
 python3 -m venv venv
 source venv/bin/activate  # Use `venv\Scripts\activate` on Windows
 3. Install the required Python packages
-bash
-Copy
-Edit
+bash :
 pip install -r requirements.txt
-Make sure requirements.txt includes:
-
-txt
-Copy
-Edit
+Make sure requirements.txt includes :
 streamlit
 tensorflow
 numpy
@@ -35,9 +25,7 @@ pillow
 opencv-python
 scikit-learn
 4. Run the Streamlit app
-bash
-Copy
-Edit
+bash :
 streamlit run app.py
 
 # Link 
