@@ -24,7 +24,7 @@ This project aims to develop an AI-driven system for automated skin cancer detec
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/skin-cancer-detection-cnn.git
+git clone https://github.com/Cube1Aashi/skin-cancer-detection-cnn.git
 cd skin-cancer-detection-cnn
 ```
 
@@ -43,7 +43,7 @@ opencv-python
 scikit-learn
 ```
 
-### 3. Run the App
+### 3. Run the website
 ```bash
 streamlit run app.py
 ```
